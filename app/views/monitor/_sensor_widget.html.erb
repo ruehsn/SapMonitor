@@ -1,0 +1,15 @@
+<div id="Sensor<%=sensor.id%>">
+  <strong> Sensor:  <%= sensor.name %> </strong>
+  Min:  <%= sensor.min_value %>
+  Max:  <%= sensor.max_value %>
+  <% if readings.size == 0  %>
+    <p> No reading for this sensor!! </p>
+  <% else %>
+    Current:  <%= readings[0].value %>
+     <%= readings[0].updated_at %>
+    
+    <p>History:  <%= readings.each %> </p>
+  <% end  %>
+  <p>
+
+</div>

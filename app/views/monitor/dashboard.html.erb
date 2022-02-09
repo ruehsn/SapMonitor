@@ -1,0 +1,5 @@
+<h1>Dashboard</h1>
+
+<% @sensors.each do |sensor| %>
+<%= render "sensor_widget", sensor: sensor, readings: @current_readings[sensor.id]  %>
+<% end %>

@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  input_type: MyString
+  min_value: 9.99
+  max_value: 9.99
+  minute_between_reading: 1
+
+two:
+  name: MyString
+  input_type: MyString
+  min_value: 9.99
+  max_value: 9.99
+  minute_between_reading: 1
